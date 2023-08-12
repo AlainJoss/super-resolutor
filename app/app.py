@@ -2,13 +2,10 @@ import streamlit as st
 import resolutor
 import os
 import cv2
-import numpy as np
 
 st.title("Super-Resolutor")
 
 st.write("Super resolutor is a super-hero which enables you to x4 the resolution of your images.")
-
-os.makedirs("image", exist_ok=True)
 
 st.write("### Upload Image")
 
@@ -16,7 +13,6 @@ uploaded_file = st.file_uploader(label="Upload your image", type=['png', 'jpg'])
 
 if uploaded_file is not None:
     with st.spinner("Upscaling in progress ..."):
-        # Convert the file to an opencv image.
         try:
             opencv_image = resolutor.file_to_opencv_image(uploaded_file)
 
