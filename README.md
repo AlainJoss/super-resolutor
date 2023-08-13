@@ -5,7 +5,6 @@ A Streamlit-based application to upscale the resolution of images by a factor of
 ## Features
 
 - Upload images in `.png` and `.jpg` formats.
-- Upscale images using the `resolutor` library.
 - Compare original and upscaled images side-by-side.
 - Download the enhanced image.
 
@@ -26,12 +25,17 @@ A Streamlit-based application to upscale the resolution of images by a factor of
 
 ## Usage
 
-Run the app with:
+1. Move to app folder:
+   
+   ```bash
+   cd app
+   ```
 
-```bash
-cd app
-streamlit run app.py
-```
+2. Run the app with:
+
+   ```bash
+   streamlit run app.py
+   ```
 
 Then, follow the on-screen instructions to upload and upscale your image.
 
