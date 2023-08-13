@@ -1,5 +1,5 @@
 from cv2 import dnn_superres
-import app.models as models
+import models
 import cv2
 import numpy as np
 import streamlit as st

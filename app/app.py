@@ -1,5 +1,5 @@
 import streamlit as st
-import app.resolutor as resolutor
+import resolutor
 import cv2
 
 if 'original' not in st.session_state:
