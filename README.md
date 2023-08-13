@@ -5,7 +5,6 @@ A Streamlit-based application to upscale the resolution of images by a factor of
 ## Features
 
 - Upload images in `.png` and `.jpg` formats.
-- Upscale images using the `resolutor` library.
 - Compare original and upscaled images side-by-side.
 - Download the enhanced image.
 
