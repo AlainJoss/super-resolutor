@@ -26,16 +26,16 @@ A Streamlit-based application to upscale the resolution of images by a factor of
 ## Usage
 
 1. Move to app folder:
-
-```bash
-cd app
-```
+   
+   ```bash
+   cd app
+   ```
 
 2. Run the app with:
 
-```bash
-streamlit run app.py
-```
+   ```bash
+   streamlit run app.py
+   ```
 
 Then, follow the on-screen instructions to upload and upscale your image.
 
