@@ -31,7 +31,7 @@ A Streamlit-based application to upscale the resolution of images by a factor of
 cd app
 ```
 
-3. Run the app with:
+2. Run the app with:
 
 ```bash
 streamlit run app.py
